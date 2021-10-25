@@ -1,5 +1,6 @@
 pipeline { 
-  agent any stages { 
+  agent any 
+  stages { 
   stage("Compile") { 
     steps { 
       //pip install requirements.txt 
